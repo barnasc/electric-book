@@ -3,6 +3,7 @@ title: "A. Guidelines and best practices for the creation and maintenance of IEE
 ---
 
 (normative)
+{: #A}
 
 # Guidelines and best practices for the creation and maintenance of IEEE standards terms and definitions
 

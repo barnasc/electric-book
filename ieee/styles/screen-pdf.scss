@@ -28,6 +28,18 @@
 // If you're only planning one edition and use default tags ({:.tighten} not {:.tighten-schools-edn}), leave as null.
 $edition-suffix: null;
 
+// MB: Fonts and sizes
+
+$font-text-main: serif !default;
+$font-text-secondary: sans-serif !default;
+$font-display-main: sans-serif !default;
+$font-display-secondary: serif !default;
+$font-code: monospace !default;
+
+$font-size-default: 10pt !default;
+$line-height-default: 14pt !default; //1.2em
+
+$spaced-paras: true !default; 
 
 // ------------
 // Import fonts
@@ -56,3 +68,18 @@ $edition-suffix: null;
 
 // Add any custom Sass or CSS here.
 
+// underline hyperlinks in blue in chapters
+.chapter {
+  a[href] {
+    text-decoration: underline;
+    color: blue;
+  }
+}
+
+// ignore spaced paras for footnotes
+.footnotes { 
+  p, p + p {
+    text-indent: 0;
+    margin-bottom: 0;
+  }
+}

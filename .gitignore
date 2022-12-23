@@ -13,6 +13,7 @@ _app/plugins
 _prince
 .DS_Store
 .vscode*
+.npmrc
 
 # If your team needs strict node-package
 # version management, comment out this line
